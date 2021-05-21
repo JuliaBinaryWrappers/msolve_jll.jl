@@ -1,0 +1,54 @@
+[[msolve]]
+arch = "aarch64"
+git-tree-sha1 = "ee15f5c8dd2dc873b3b5837bb02aefdbb0ab5b77"
+libc = "glibc"
+os = "linux"
+
+    [[msolve.download]]
+    sha256 = "854d0bfe4288f549a87ed022640397becc5377ca3dc1bf2eb5e3a1bc71eae0e8"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.2+0/msolve.v0.1.2.aarch64-linux-gnu.tar.gz"
+[[msolve]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e08339cf1b1f3a6418e4027d317790f0633d74ba"
+libc = "glibc"
+os = "linux"
+
+    [[msolve.download]]
+    sha256 = "459325efc50798555038f34a02cbc930bbb0f8982e612fa9bf66984bd74e9e29"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.2+0/msolve.v0.1.2.armv7l-linux-gnueabihf.tar.gz"
+[[msolve]]
+arch = "i686"
+git-tree-sha1 = "4e3f6d6d479b78d080b79f4d333a72351df8ecf8"
+libc = "glibc"
+os = "linux"
+
+    [[msolve.download]]
+    sha256 = "a31911e3ccf783c5f7655059081821891f346f662071463afd18178e4ca7c251"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.2+0/msolve.v0.1.2.i686-linux-gnu.tar.gz"
+[[msolve]]
+arch = "powerpc64le"
+git-tree-sha1 = "8874beb27b6cc017c9e3672583a2e0574f55f58c"
+libc = "glibc"
+os = "linux"
+
+    [[msolve.download]]
+    sha256 = "5cfa8cbeaa18f03b4a5b9fd346f6397e74cc4aa070a75b91c9ca597b32d1d173"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.2+0/msolve.v0.1.2.powerpc64le-linux-gnu.tar.gz"
+[[msolve]]
+arch = "x86_64"
+git-tree-sha1 = "63c055cdc5ae973d5833521babb79f606e2f5e3d"
+os = "macos"
+
+    [[msolve.download]]
+    sha256 = "746f657a8431de28f6396bc259a196e7ba1130377d96f260f9b88c05ddfc5262"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.2+0/msolve.v0.1.2.x86_64-apple-darwin.tar.gz"
+[[msolve]]
+arch = "x86_64"
+git-tree-sha1 = "1abd17cab05fcdab2ea1687e41725352c5f94cce"
+libc = "glibc"
+os = "linux"
+
+    [[msolve.download]]
+    sha256 = "1f9055c3fd959969ef4df1a70d7234b1fbf7149f58448f40eed81e810e53d200"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.2+0/msolve.v0.1.2.x86_64-linux-gnu.tar.gz"
