@@ -6,8 +6,8 @@ using FLINT_jll
 using MPFR_jll
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("msolve")
-JLLWrappers.@declare_library_product(libmsolve, "@rpath/libmsolve-0.1.2.dylib")
-JLLWrappers.@declare_library_product(libneogb, "@rpath/libneogb-0.1.2.dylib")
+JLLWrappers.@declare_library_product(libmsolve, "@rpath/libmsolve-0.1.7.dylib")
+JLLWrappers.@declare_library_product(libneogb, "@rpath/libneogb-0.1.7.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(GMP_jll, FLINT_jll, MPFR_jll, CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
