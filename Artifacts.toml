@@ -1,127 +1,127 @@
 [[msolve]]
 arch = "aarch64"
-git-tree-sha1 = "bcee5c4d85a2eec4263cee38a2386ddf16f8b661"
+git-tree-sha1 = "a44786905903b3456128bf830c6f898881c15851"
 os = "macos"
 
     [[msolve.download]]
-    sha256 = "0083951d7b0bcf85ca6a052ac916b2b42374af8f397482c7147aaa626c5741a7"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.aarch64-apple-darwin.tar.gz"
+    sha256 = "7583f337095ef937c201b44f4b1f5b0b1e757db810d7a96a5cd2e65f24b216f1"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.aarch64-apple-darwin.tar.gz"
 [[msolve]]
 arch = "aarch64"
-git-tree-sha1 = "1d2f4111274eb92dcdda3a74f833eeb8c598e26d"
+git-tree-sha1 = "ead6a1248fde3491a114fa5a203ae1ca4306ca77"
 libc = "glibc"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "a8bc44156a4ca969dc7e4296c1110cfdce9b1e977834b10805aa59f8551a4360"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.aarch64-linux-gnu.tar.gz"
+    sha256 = "01e40dd11c6cbcc83e14e6c7b35a7f549c3dc039cb0b83cfeb0d792060531b54"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.aarch64-linux-gnu.tar.gz"
 [[msolve]]
 arch = "aarch64"
-git-tree-sha1 = "ac3333896e7700d7d014a55d26d4e682935c9553"
+git-tree-sha1 = "4c18590ff10387796fb14fc128e4e76a87299795"
 libc = "musl"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "11d93cec7d442231ed37589f993f04eb92be97dbb2e0c56f428383be3de17324"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.aarch64-linux-musl.tar.gz"
+    sha256 = "ff6934a98e30aa70c221a7052a4f47e2018b80aee7826d39acb680a4167f1d42"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.aarch64-linux-musl.tar.gz"
 [[msolve]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "16631db744837ff4bce148a73ca886d775082fb7"
+git-tree-sha1 = "c29b6366d09567cf31ae5ceda4a8d50e88187035"
 libc = "glibc"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "f02396183540404b6691252c9141ab6322e3f3f783cb288e5b5971f3e63ca0d9"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "c58a6c5f0f3a2ef0d36ce1c40800cca5976214f21f5421b94cff5b77c62321d5"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.armv6l-linux-gnueabihf.tar.gz"
 [[msolve]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "84ed7a60f3c40e732c991ce7e06c619c82eab066"
+git-tree-sha1 = "440f56e91113e5c52910df04f6ce7021341f0b57"
 libc = "musl"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "697f344025d30d0667876d52eff7c9c7ea1b1dce7998b75461b7e7b55d682217"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "5b00ccf77612b3ca6474fd9e7f235250d808618290efc883fd869ce7737ae357"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.armv6l-linux-musleabihf.tar.gz"
 [[msolve]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "fa1c2cc8d32c6991ba6bdbd7c322e03de2cb66dd"
+git-tree-sha1 = "0185bca97207530067d0a4478b8f72a9faf4136a"
 libc = "glibc"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "68c95b2ca55cd41ef6f5bec85afae19deceb7aa3d1dfca985d4263ea1a0e503a"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "cf52f0666172fb3d09eaea55ca5925efa370dd9f793aa1140e7f18d2ca8a75d0"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.armv7l-linux-gnueabihf.tar.gz"
 [[msolve]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "6a6b899dcb567804e0aee8d754e8a8a5af6cb482"
+git-tree-sha1 = "032e5f887574af803d2af286de387a67798027c4"
 libc = "musl"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "9ea31ad9e73ec7a32ff537bc084b7e3b0c55463e177f1f5484b06c71d07ee055"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "c791f7405466febfe509f9327641344191551b3d9798858cd2ddcfcf163b2e4e"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.armv7l-linux-musleabihf.tar.gz"
 [[msolve]]
 arch = "i686"
-git-tree-sha1 = "c2507c69866df084458c6760544df3444a155a13"
+git-tree-sha1 = "9c16ecf0e2a87f288d60af5fe46e513916aec224"
 libc = "glibc"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "4e79b0190254e05dc71cbb91897da4cf943027da45362d586e08e9079dfa0656"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.i686-linux-gnu.tar.gz"
+    sha256 = "b194ce16624b1378356f17ab18152d6b66bc8e35c8c6b1fc4844d0d33c4d05af"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.i686-linux-gnu.tar.gz"
 [[msolve]]
 arch = "i686"
-git-tree-sha1 = "2653ab3eab26ab42dad285ee43704832c79d28ad"
+git-tree-sha1 = "9a225b169ed0672461129e23aeba9138a18f15d8"
 libc = "musl"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "fe40738db1eac28acff0b539f948faba1230fffb8bac512ca9c033844c8bf5a4"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.i686-linux-musl.tar.gz"
+    sha256 = "dae873b6cb9df3fa35c6a1f980a5e074a5596af7894c3cd448b68534416f5625"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.i686-linux-musl.tar.gz"
 [[msolve]]
 arch = "powerpc64le"
-git-tree-sha1 = "78f769226e77868196c4e24047d6deadb66ec8b0"
+git-tree-sha1 = "891cd616318e5504fe2ce0e578b3c0ebb76e3e97"
 libc = "glibc"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "4b0c7cf6274d083ffd32f4dd9db77962e4b218566b51b0e3cd357eaf2444a646"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "32441065ac7fc8bd18284383b03bbe9437f171453d439f4fabce76201b42500e"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.powerpc64le-linux-gnu.tar.gz"
 [[msolve]]
 arch = "x86_64"
-git-tree-sha1 = "44ae6d39c3bf86ad2f235614b55607a74e099bd7"
+git-tree-sha1 = "92c2941dfffafd79241c8bc4d35d44e2d8d05a33"
 os = "macos"
 
     [[msolve.download]]
-    sha256 = "3a825922648d8c94ae38b10d76451c8597f7fceded408a64f20b50da5658583f"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.x86_64-apple-darwin.tar.gz"
+    sha256 = "5fc5cc3d0d64fa65d6d6a1ff81c0197545f99d6aa580170f6979a6ba82405a35"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.x86_64-apple-darwin.tar.gz"
 [[msolve]]
 arch = "x86_64"
-git-tree-sha1 = "9f9473b47c0929acd36206ca7044a9fc5f84195a"
+git-tree-sha1 = "28eabe544fe8069c61b2d3749a82684288f2422a"
 libc = "glibc"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "84f39423716a391ecf4531c46b9f5c9766335d015b9a45465d171c3c00c9b515"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.x86_64-linux-gnu.tar.gz"
+    sha256 = "58c91b8c5fdb7cd0b921a4abb192424b1e49a6545d4fc92ca8fccd9f4c1d969a"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.x86_64-linux-gnu.tar.gz"
 [[msolve]]
 arch = "x86_64"
-git-tree-sha1 = "a91846f544adf81d2c597dc6013296e13c827dcd"
+git-tree-sha1 = "bff340a7303493f8727356660ae68b2f3e65ce0d"
 libc = "musl"
 os = "linux"
 
     [[msolve.download]]
-    sha256 = "52e895b1b66ef709e381776926f8eb0acd9130e6de82de8602fcf939f61e31bb"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.x86_64-linux-musl.tar.gz"
+    sha256 = "41c4853cc295e7c72daf94f5aad4b5e6b2ea7dffb8ef3d5c484264b26d9b73db"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.x86_64-linux-musl.tar.gz"
 [[msolve]]
 arch = "x86_64"
-git-tree-sha1 = "65289e7a3b34f8935aab5f8c45dfd707175f28c5"
+git-tree-sha1 = "d6d405c49fb03604e62fb9395408e7cc826325e6"
 os = "freebsd"
 
     [[msolve.download]]
-    sha256 = "4c92b47f02cabce324d3ab8ec6041136ce854eb68681485341183fd6730c0ff9"
-    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.1.7+0/msolve.v0.1.7.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "302e9a45575bc97adb75db8ac29519ba8025abc43ea51795dcc6a11eb73d8119"
+    url = "https://github.com/JuliaBinaryWrappers/msolve_jll.jl/releases/download/msolve-v0.2.0+0/msolve.v0.2.0.x86_64-unknown-freebsd.tar.gz"
