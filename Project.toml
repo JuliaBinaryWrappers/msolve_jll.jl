@@ -1,6 +1,6 @@
 name = "msolve_jll"
 uuid = "6d01cc9a-e8f6-580e-8c54-544227e08205"
-version = "0.600.800+0"
+version = "0.700.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
