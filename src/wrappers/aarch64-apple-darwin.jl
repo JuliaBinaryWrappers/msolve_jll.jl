@@ -7,19 +7,19 @@ using MPFR_jll
 using OpenBLAS32_jll
 using LLVMOpenMP_jll
 JLLWrappers.@generate_wrapper_header("msolve")
-JLLWrappers.@declare_library_product(libmsolve, "@rpath/libmsolve.2.dylib")
-JLLWrappers.@declare_library_product(libneogb, "@rpath/libneogb.2.dylib")
+JLLWrappers.@declare_library_product(libmsolve, "@rpath/libmsolve.3.dylib")
+JLLWrappers.@declare_library_product(libneogb, "@rpath/libneogb.3.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(GMP_jll, FLINT_jll, MPFR_jll, OpenBLAS32_jll, LLVMOpenMP_jll)
     JLLWrappers.@init_library_product(
         libmsolve,
-        "lib/libmsolve.2.dylib",
+        "lib/libmsolve.3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libneogb,
-        "lib/libneogb.2.dylib",
+        "lib/libneogb.3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
